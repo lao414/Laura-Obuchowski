@@ -1,0 +1,722 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+/* Banner layout */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6c63ff, #8ec5fc);
+  color: white;
+  text-align: center;
+  animation: fadeUp 1s ease-out;
+}
+
+/* Banner content */
+.banner__content {
+  max-width: 600px;
+  padding: 0 5vw;
+}
+
+/* Text styling */
+.banner h1 {
+  font-size: 6vw;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 2vw;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.banner button {
+  background-color: white;
+  color: #6c63ff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 8vw;
+  }
+
+  .banner p {
+    font-size: 4vw;
+  }
+
+  .banner button {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    flex-direction: column;
+    padding: 10vh 5vw;
+  }
+
+  .banner h1 {
+    font-size: 10vw;
+  }
+
+  .banner p {
+    font-size: 5vw;
+  }
+}
+
+.cta:hover {
+  background-color: dodgerblue;
+}
+
+.cta:active {
+  background-color: navy;
+}
+
+.cta::after {
+  content: " →";
+  font-weight: bold;
+}
+.cta {
+  background-color: royalblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.card::before {
+  content: "New!";
+  color: red;}
+
+
+@keyframes slideGrow {
+  from {
+    transform: translateX(-60px) scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.box {
+  width: 200px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  animation: slideGrow 600ms ease-out;}
+blockquote::after {
+  content: "Yup";
+  color: gold;
+}
+.cta:hover {
+  background-color: rgb(113, 124, 135);
+}
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20%;
+  margin-left:  10%;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.menu a {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s ease;
+}
+@media (max-width: 480px) {
+  .card {
+    display: block;
+    width: 100%;
+  }
+  .container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 33.33%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+}
+/* Tablet */
+@media (max-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@keyframes popFade {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+button {
+  animation: popFade 300ms ease-out;
+}
+.banner {
+  padding: 24px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  animation: fadeSlide 1s ease-out;
+}
+
+
+@keyframes popIn {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+button {
+  animation: popIn 300ms ease-out;
+}
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.button {
+  animation: bounce 1s ease-in-out 300ms;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+}
+@media (max-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
+.box {
+  width: 50%;     /* half the container */
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.menu a:hover::after {
+  width: 100%;
+}
+.tooltip-container:hover .tooltip {
+  opacity: 1;
+}
+.cta:active {
+  background-color: rgb(0, 90, 128);
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(248, 246, 246);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+.cta::after {
+  content: " →";
+  font-weight: bold;
+}
+button:active {
+  background-color: rgb(0, 139, 79);
+}
+.container {
+  display: flex;
+  flex-direction: ;    /* bottom → top */
+
+.plan {
+  background-color: rgb(186, 97, 97);
+  width: 280px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.plan:hover {
+  transform: translateY(-4px);
+}
+
+.plan--highlighted {
+  border: 10px solid #3d31ee;
+}
+
+.plan__title {
+
+  color: #df6565;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.plan__price {
+  font-size: 28px;
+  color: #de37a4;
+  margin-bottom: 15px;
+}
+
+.plan__price span {
+  font-size: 14px;
+  color: #666;
+}
+
+.plan__features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan__feature {
+  margin: 8px 0;
+  color: #555;
+}
+
+.plan__button {
+  background-color: #4337de;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.plan__button:hover {
+  background-color: #e7e6f1;
+}
+input:focus {
+  border: 2px solid rgb(255, 0, 166);
+}
+  background-color: #f8f8f8;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 60px;
+}
+
+body {color:navy; background-color:beige; text-align:Center;}
+h1 {font-family: 'Franklin Gothic Medium';font-weight:bold; font-size: 60px;color:rgb(68, 0, 255)}
+.card__wrapper .card {  background-color: rgb(99, 149, 178);
+}
+.card{width:500px; height:500px; background-color:#47cb6a; margin:0 auto}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #9ddefa;
+  text-align: center;
+  padding: 50px;
+}
+.card {background-color: rgb(227, 137, 137)}
+p > a {
+  color: rgb(0, 255, 21);
+}
+h1 {font-size: 36}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card--dark {
+  background-color: #333;
+  color: white;
+}
+
+.card__title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.card__button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+.card__button--large {
+  padding: 14px 20px;
+  font-size: 25px;
+}
+h2 {font-style: italic; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:#3a1303; background-color: #f1eded;
+
+
+.badge {background-color: white}
+
+p {background-color: #b8cb8e;font-size: 40px}
+.poster {
+  background-color: #764848;
+  border-radius: 12px;
+  padding: 40px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.poster h1 {
+  color: #ff6600;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.poster p {
+  color: #555;
+  font-size: 18px;
+  font-style: italic;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 50px;
+}
+@import url(https://fonts.google.com/specimen/Oswald);
+p {font-family: 'roboto'; sans serif}
+.card {
+  background-color: white;
+  width: 280px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+  margin: 8px 0;
+}
+.box {color: #8179ee;
+  width:200px;margin:auto;
+  height: 100px;
+  overflow: hidden;
+}
+h2 {font-size:60px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.card {
+  position: relative;
+  display: inline-block; width: 320px;
+  height: 180px;
+  background-color: #c36363;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #775fb2;
+  border-radius: 10px;
+  box-sizing: border-box;}
+
+.li {Position:absolute;
+    top:10px;
+    right:10px;
+    background-color: #ef9f9f;}
+.badge {
+  position: absolute;
+  top: 19px;
+  right: 10px;
+  background-color: rgb(0, 255, 26);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 40px;
+  font-size: 14px;
+}
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.card h2 {
+  color: hsla(0, 4%, 5%, 0);
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #0c0505;
+  font-size: 15px;
+  margin: 8px 0;
+}
+body {
+  background-color: #f8f8f8;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 80px;
+}
+
+.poster {
+  background-color: #ef9f9f;
+  border-radius: 12px;
+  padding: 40px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+p {color:#0c0505; text-align: center}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+  background-color: #f9fafc;
+  text-align: center;
+  padding: 60px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #4337de;
+  color: white;
+}
+
+.navbar__links a {
+  color:white;
+  text-decoration:white;
+  font-weight: 500;
+}
+.card {position:relative; right:auto; left:auto}
+.navbar__links a:hover {
+  text-decoration: underline;
+}
+.parent {
+  position: relative;
+}
+.card {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: crimson;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding: 100px
+  background-color: #03adf6;
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+}
+
+.card img {
+  width: 100%;
+  border-radius: 18px;
+  margin-bottom: 15px;
+}
+.plan {
+  background-color: white;
+  width: 280px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.plan:hover {
+  transform: translateY(-4px);
+}
+
+.plan--highlighted {
+  border: 2px solid #4337de;
+}
+
+
+.container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.item {
+  background-color: #1303f3;
+  color: white);justify-content:center;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  overflow:visible;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(220, 47, 20, 0.9);
+  color: white;
+  padding: 10px;
+  z-index: 100;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items:center;
+  flex-direction:column; 
+  gap:60px;column;
+}
+.box {
+  background-color: #6c37de;overflow:scroll;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+a:hover {
+  color: red;
+}
+
+button:active {
+  background-color: darkblue;
+}
+.card::before {
+  content: "New!";
+  color: rgb(255, 0, 195);
+  font-weight: bold;
+}
+.cta {
+  background-color: royalblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: rgb(237, 241, 7);
+}
+
+.cta:active {
+  background-color: navy;
+}
+
+.cta::after {
+  content: " →";
+  font-weight: bold;
+}
