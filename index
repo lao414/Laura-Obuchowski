@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="eh">
+    <head> <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"
+<meta name="viewport" content="width=device-width, initial scale 1.0">
+<title>Index</title>
+    </head>
+    <Body>
+    
+    
+   <h1>Welcome to Laura's Page</h1>
+ <p>This is where I will introduce myself</p>
+ <ul>
+    <p>About Me</p>
+    
+    <p>Projects</p>
+
+    <p>Contact</p>
+    <form><Input>Your email</input></form>
+    
+</ul>
+
+<div class="card">
+  <img src="https://via.placeholder.com/120" alt="Profile photo">
+  <h2>Laura Obuchowski</h2>
+  <p>Frontend Developer</p>
+  <p>Passionate about creating clean, user-friendly interfaces.</p>
+</div>
+</Body>
+</html>
+<footer>
+    <p>2026 Laura</p>
+</footer>
+

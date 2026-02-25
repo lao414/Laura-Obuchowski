@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="eh">
+    <head> <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"
+<meta name="viewport" content="width=device-width, initial scale 1.0">
+<title>New File</title
+</head>
+<body>
+    <Section>
+        <nav> <img src="./assets/Hello%20Kitty.webp" alt="Hello Kitty"
+            <ul>
+                <li><a href="#about">About</a>
+                </li><li><a href="#Discord">Discord</a>
+                </li><li><a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div>
+            <h1>Best place to learn Frontend</h1>
+            <p>Go from being an absolute beginner to pro with frontend</p>
+            <button> Start Now </button>
+            </div>
+            <Figure> <img src="./assets/HelloKitty Flowers.webp" alt="Hello Kitty with flowers"</Figure>
+
+            
+        </header>
+    </Section>
+    <main><Section id="about"> <h2>About</h2>
+        <div><h2> Best place to learn frontend </h2>
+        <p>Go from being a newbie to a knowledged person. Based on website information</p>
+        
+    <button>Start Now</button></div></Section>
+<div> <P>Hello Kitty is not real. Hello Kitty is an anthropomorphic Japanese Bobtail cat with white fur, a yellow nose, black eyes and 3 whiskers on each side of her head and no visible mouth.</P></div>
+
+
+    <Section ID="Discord"> Discord</Section>
+
+<Section id="Contact"><h2>Contact</h2>
+<Form action=""><label>Email</label><input type="text" placeholder="jane@example.com">
+<label>Message</label><textarea type="text" placeholder="jane@example.com"></Form></Section></main>
+
+<footer>
+    <div><nav>
+        <a href="about">About</a>
+        <a href="Discord">Discord</a>
+        <a href="Contact">Contact </a>
+   </nav> </div>
+</footer>
+</body>
+</html>
