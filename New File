@@ -39,7 +39,7 @@
 
 <Section id="Contact"><h2>Contact</h2>
 <Form action=""><label>Email</label><input type="text" placeholder="jane@example.com">
-<label>Message</label><textarea type="text" placeholder="jane@example.com"></Form></Section></main>
+<label>Message</label><textarea type="text" placeholder="jane@example.com"></textarea></Form></Section></main>
 
 <footer>
     <div><nav>
