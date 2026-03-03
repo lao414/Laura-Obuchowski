@@ -1,15 +1,85 @@
-<link rel="stylesheet" type="text/css" href="style.css">
-/* Banner layout */
-.banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(135deg, #6c63ff, #8ec5fc);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,87.2,100..900;1,87.2,100..900&display=swap');
+*{padding:0;
+margin:auto
+box-sizing: border-box; font-family: "Roboto", sans-serif;}
+nav {height: 70 px; display:flex; justify-content: space-between; align-items: center; padding:0 16px;}
+a {color: #000;font-size: 24px; font-weight: bold;
+}
+header {background-color: #eadcff; height: calc(100vh-70px)
+padding: 24px; display: flex; align-items: center; justify-content:center;}
+h1 {font-size: 72px; }
+
+button {background-color: #05c7cf; color:white; border:none; padding: 8 px 16px; font-size:24px; cursor: pointer;}
+.subheader {font-size: 36px; margin: 16px 0 24px 0;}
+.row {width: 100%, max-width: 1300px; margin: 0 auto; display:flex; align-items:center; justify-content:center;}
+#about { background-color: #f8ffdc}
+#about, #discord, #contact, #footer {padding: 48px 0;}
+
+/*
+
+About
+
+*/
+
+h2 {font-size: 60px;
+text-align: center; margin-bottom: 24px;}
+.section__description {display: flex;
+  justify-content: center; align-items: center; padding: 0 24px;}
+
+.about__img--wrapper { width: 70%;padding: 0 24px}
+img {width: 30%;}
+.section__description--wrapper {width: 60%;}
+.section__description--para {font-size: 20px; line-height: 1.5; margin-bottom: 24px;}
+
+/*
+
+Discord
+
+*/
+
+.section__description {background-color: #6fe4e6
+
+
+
+
+  justify-content: center
   color: white;
   text-align: center;
-  animation: fadeUp 1s ease-out;
+
 }
+
+Form {width: 100%; max-width: 600px; display: flex; flex-direction: column;margin: 0 auto; padding: 0 24px;}
+input, textarea {margin-bottom: 24px; font-size: 20px;padding: 6px 12px;}
+
+contact {background-color: #dce9ff;}
+
+footer {background-color: #aaf5ff; display:flex; flex-direction: column; align-items: center;  }
+.footer_links {margin-bottom: 32px;}
+.footer_links {padding: 10px 25px;}
+
+/* small phones, tablets, large smartphones */
+@media (max-width: 728px) {
+.row {flex-direction: column;}
+.home__description {margin-bottom: 24px; display: flex; flex-direction: column; align-items: center;}
+.home__description--button {max-width: 240px;}
+h1 {text-align: center; font-size: 60px;}
+.subheader {text-align: center; font-size: 28px;}
+
+ul {display: none; }
+.section__description {flex-direction: column;}
+.section__description--wrapper {width: 100%;;}
+.about__img--wrapper {width: 100%}
+#discord .section__description {flex-direction: column-reverse;}
+footer {padding: 48px 24px;}
+.footer_links {padding: 0 4PX;
+font-size: 18PX;margin-bottom: 24px;
+
+}
+}
+
+
+
+
 
 /* Banner content */
 .banner__content {
