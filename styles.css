@@ -151,7 +151,10 @@ width: 100%;
     width: 100%;
     max-width: 100px;
 }
+.language {
+    width: 25%;
 
+}
 .language__img-wrapper {
  width: 25%;
 display: flex;
