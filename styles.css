@@ -245,16 +245,13 @@ transition: opacity 450ms ease;
     position: absolute;
  top: 50%;
  left: 90px;
- transform: translateY(100%);  
- opacity: 0;
- transition:opacity 300ms, transform 450ms ease;
- color: white;
+ transform: translateY(-50%);  
  max-width: 550px;
-
+ z-index: 3;
 }
 
-
-.project__wrapper:hover .project__description {
-  opacity: 1;
-  transform: translateY(-50%);
+.project__description--title, .project__description--sub-title, .project__description--para, .project__description--link {
+    text-align: left;
+    color: #fff
 }
+
