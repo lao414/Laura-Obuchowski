@@ -2,9 +2,9 @@
 <html lang="eh">
     <head> <link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial scale 1.0">
-<title>Try Me</title
+<title>Try Me</title>
     <head>
 
 <h1>Schedule</h1>
@@ -47,7 +47,7 @@
  <input type="radio" name="Content"/>Closed
     </div>
 
-<footer>Laura (c)2026 </footer>
+
 <button class="cta">Click Me</button>
 <header>
   <h1>My Routine</h1>
@@ -81,7 +81,6 @@
       <a href="https://spotify.com">Spotify</a>
     </li>
   </ol>
-  
 </main>
 <div class="tooltip-container">
   <button>Hover me</button>
@@ -97,103 +96,5 @@
 <footer>
   <p>© 2025 My Routine</p>
 </footer>
-<!DOCTYPE html>
-<html lang="eh">
-    <head> <link rel="stylesheet" href="style.css">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"
-<meta name="viewport" content="width=device-width, initial scale 1.0">
-<title>Try Me</title
-    <head>
 
-<h1>Schedule</h1>
-
-        </head>
-
-<article> 
-    <h3>Introductions</h3>
-    <h3>Reduction</h3>
-     <h3>Last Meetups</h3>
-</article>
-<h2>Sign Up</h2>
-<form>
-    <div><label id="Full-Name">Full Name</label></div>
-    <input type="Name"/>
-    <div><label id="Date">Date</label></div>
-    <input type="date"/>
-    <section>
-        <div>
-  <h2>Hobbies</h2>
-  <div>
-    <p>Reading</p>
-    <p>Cooking</p>
-  </div>
-</div>
-
-<div class="modal">
-  <h2>Welcome!</h2>
-  <p>This is your first modal window.</p>
-  <button>Close</button>
-</div>
-       
-    </section></form>
-    <nav> <a href="https://Google.com" target="_blank">Google</a>
-</nav><div>
-<nav><a href="https://sanrio.com" target="_blank">Hello Kitty</a></nav>
-    <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Hello_kitty_character_portrait.png" alt="Hello Kitty">
- </div>
-   <div> <input type="radio" name="Content"/>Open
- <input type="radio" name="Content"/>Closed
-    </div>
-
-<footer>Laura (c)2026 </footer>
-<button class="cta">Click Me</button>
-<header>
-  <h1>My Routine</h1>
-  <nav>
-    <a href="#">About</a>
-    <a href="#">Routine</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
-
-<main>
-  <h2>A Day in My Life</h2>
-  <ol>
-    <li>
-      Wake up at 7:00AM.  
-      <a href="https://calm.com">Open Calm</a>
-    </li>
-    <li>
-      Make breakfast.  
-      <img src="https://example.com/eggs.jpg" alt="Eggs and toast" />
-    </li>
-    <li>
-      Log on for work.  
-      <a href="https://notion.so">Check my tasks</a>
-    </li>
-    <li>
-      Afternoon break — go for a walk.
-    </li>
-    <li>
-      Relax with a podcast.  
-      <a href="https://spotify.com">Spotify</a>
-    </li>
-  </ol>
-  
-</main>
-<div class="tooltip-container">
-  <button>Hover me</button>
-  <span class="tooltip">I’m a tooltip!</span>
-<nav class="menu">
-  <a href="#">Home</a>
-  <a href="#">About</a>
-  <a href="#">Contact</a>
-</nav>
-<div class="box">
-  <p>Hello motion 👋</p>
-</div>
-<footer>
-  <p>© 2025 My Routine</p>
-</footer>
    <blockquote></blockquote>
