@@ -36,10 +36,11 @@ a {
 }
 
 .link__hover-effect:after {
-    content: ""
+    content: "";
+    position: absolute;
     height: 3px;
 background-color:black;
-width: 100%;
+width: 0;
 bottom: -3px;
  left:0;
 }
@@ -47,7 +48,8 @@ bottom: -3px;
 .link__hover-effect:hover:after {
     width: 100%;
 }
-
+li {list-style-type: none;
+}
  
 .flex {
   display: flex;
