@@ -294,10 +294,11 @@ Nav {
 
 /* FOOTER*/
 
-.footer {
-    background-color: #242424;
+footer {
+  background-color: #242424;
 
 }
+
 .footer__row {
 padding: 8% 0;
 }
@@ -306,4 +307,6 @@ padding: 8% 0;
     max-width: 70px;
     max-height: 70px;
 }
-
+.footer__social--list {
+color: white
+}
