@@ -33,11 +33,9 @@
         <img src="./assets/Hello%20Kitty.webp" alt="Hello Kitty">
    <button> Start Now</button>
 </div></Section>
-<div> <P>Hello Kitty is not real. Hello Kitty is an anthropomorphic Japanese Bobtail cat with white fur, a yellow nose, black eyes and 3 whiskers on each side of her head and no visible mouth.</P></div>
 
-
-    <Section ID="Discord"> Discord</Section>
-
+    <Section ID="Discord"><h2>Discord</h2>
+<p>I don't know a lot about discord so this section is going to be empty.</p></Section>
 <Section id="Contact"><h2>Contact</h2>
 <Form action=""><label>Email</label><input type="text" placeholder="jane@example.com">
 <label>Message</label><textarea type="text" placeholder="jane@example.com"></Form></Section></main>
