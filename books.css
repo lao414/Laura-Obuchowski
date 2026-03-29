@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wdth,wght@0,87.2,100..900;1,87.2,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wdth,wght@0,87.2,100..900;1,87.2,100..900&display=swap');
 * {padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -125,7 +125,8 @@ button:active {
 }
 
 .header__img--wrapper {
- padding: 20px;   
+ padding: 20px; 
+ z-index: 2;  
 }
 
 .container {
@@ -141,10 +142,12 @@ margin: 0 auto;
 
 /*HIGHLIGHTS*/
 
-
+#highlights {
+    position: relative;
+}
 
 #highlights:before {
-    background: url("assets/Simple_wave.png");
+    background: url("assets/wave.svg");
     content: "";
     position: absolute;
     top: 1px;
@@ -158,12 +161,12 @@ margin: 0 auto;
 }
 
 #highlights:after {
-    background: url("assets/Simple_wave.png");
+    background: url("assets/wave.svg");
     content: "";
-    position: absolute;
-    top: 1px;
+    position: absolute; 
+    bottom: 1px;
     left: 0;
-    transform: translateY(-100%);
+    transform: translateY(100%);
     width: 101vw;
     height: 12vw;
     background-size: cover;
@@ -206,3 +209,10 @@ flex-direction: column;
     margin-bottom: 16px;
 
 }
+
+/* FEATURES */
+
+#features {
+    background-color:rgba(115,66,214,0.1);
+}
+
