@@ -89,7 +89,7 @@ li {
 .btn__menu {
     background-color: transparent;
     border:none;
-    text-size: 40px;
+    font-size: 40px;
     text-align: center;
     color:#7342d6;
     display: none;
@@ -218,7 +218,7 @@ max-width: 1200px;
 margin: 0 auto;
 }
 
-,no cursor {
+.no cursor {
     cursor: not-allowed;
 }
 
@@ -262,7 +262,9 @@ background: url("assets/wave.svg");
     width: calc(100%/3);
 display: flex;
 align-items: center;
+justify-content: center;
 flex-wrap: wrap;
+flex-direction: column;
 }
 
 .highlight__para {
@@ -287,6 +289,7 @@ flex-wrap: wrap;
     font-size: 20px;
     margin-bottom: 16px;
 text-align: center;
+
 }
 
 /* FEATURES */
