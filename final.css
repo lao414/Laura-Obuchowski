@@ -66,6 +66,10 @@ nav {
     padding-bottom: 4px;
 }
 
+.nav__logo--img {
+    font-style: bold;
+}
+
 .btn__menu {
     display: none;
     background: transparent;
