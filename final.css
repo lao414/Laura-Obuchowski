@@ -435,6 +435,10 @@ font-size: 18px;
 margin-top: 32px;
 }
 
+.quality__img--wrapper {
+     border: 1px solid rgb(229, 231, 235);
+}
+
 .section__tag {
     font-size: 16px;
   color: #6415ff;
