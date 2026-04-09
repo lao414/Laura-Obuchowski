@@ -18,6 +18,11 @@ a {
   text-decoration: none;
 }
 
+p {
+    font-size: 18px;
+  line-height: 1.5;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -28,6 +33,12 @@ a {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+  border: none;
+
 }
 
 .container {
@@ -197,7 +208,52 @@ header .row {
     align-items: center;
     justify-content: space-between;
 }
+ .header__email {
+    width: 100%;
+  max-width: 448px;
+  height: 68px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }   
 
+.header__email--input {
+    width: 100%;
+  border-radius: 500px;
+  border: 2px solid rgb(229, 231, 235);
+  padding: 20px 192px 20px 32px;
+  color: rgb(36, 62, 99);
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  transition: border-color 300ms;
+}
+
+.header__email--btn{
+    z-index: 2;
+  margin: 8px;
+  height: calc(100% - 16px);
+  border-radius: 500px;
+  width: 160px;
+  border: none;
+  background-color: #6415ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 300ms ease;
+}
+
+ .header__description {
+    width: 40%;
+ }
+
+ .header__description--para {
+margin: 32px 0;
+ }
 
 /* 
 
@@ -325,6 +381,10 @@ MOBILE RESPONSIVENESS ↓
         align-items: flex-end;
     }
 }
+
+@media (max-width: 1280px) {
+  .header__description--para {
+    font-size: 16px;}}
 
 @media (max-width: 1024px) {
 
