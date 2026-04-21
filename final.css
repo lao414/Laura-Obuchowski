@@ -771,6 +771,51 @@ PRICING ↓
   line-height: 1.5;
 }
 
+.plan__bottom {
+    padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.plan__button {
+    border-radius: 0.25rem;
+  background-color: rgb(100 21 255);
+  padding: 0.75rem 2rem;
+    padding-top: 0.75rem;
+    padding-right: 2rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  font-weight: 700;
+  color: rgb(247 250 252);
+  transition: all 300ms ease;
+  width: 100%;
+  border-radius: 9999px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.plan__middle {
+    margin-left: -2rem;
+  margin-right: -2rem;
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  padding: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+
 /* 
 
 TESTIMONIALS ↓
@@ -840,6 +885,10 @@ MOBILE RESPONSIVENESS ↓
     height: 5rem;
     width: 5rem;
     bottom: -50px;
+}
+.plan__bottom {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 }
 
